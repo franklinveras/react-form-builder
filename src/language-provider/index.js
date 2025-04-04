@@ -2,6 +2,7 @@ import enLang from './entries/en-us';
 import itLang from './entries/it-it';
 import vnLang from './entries/vi-vn';
 import faLang from './entries/fa-ir';
+import ptLang from './entries/pt-br';
 
 export const AppLanguages = [
   {
@@ -28,13 +29,20 @@ export const AppLanguages = [
     name: 'farsi',
     icon: 'ir',
   },
+  {
+    languageId: 'portuguese',
+    locale: 'pt',
+    name: 'Português',
+    icon: 'pt',
+  }
 ];
 
 const AppLocale = {
   en: enLang,
-  vi: vnLang,
-  it: itLang,
   fa: faLang,
+  it: itLang,
+  pt: ptLang,
+  vi: vnLang
 };
 
 export default AppLocale;
